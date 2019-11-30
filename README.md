@@ -10,3 +10,5 @@ Today i learned
   - Github
   - Notion
   - Slack
+  
+  업데이트
