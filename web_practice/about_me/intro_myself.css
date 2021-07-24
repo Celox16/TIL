@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.header {
+    border-bottom: 1px solid white;
+    font-style: italic;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-left {
+    display: block;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.container-right {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.contect-menu {
+    float: left;
+    padding: 8px 10px;
+}
+
+.middle {
+    display: block;
+    margin: auto;
+}
+
+.my-picture {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.intro-words {
+    text-align: center;
+}
+
+.language-icons {
+    float: center;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
