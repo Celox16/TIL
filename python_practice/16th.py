@@ -11,3 +11,4 @@ simple = SimpleTest()
 simple.print_skip('bad')
 simple.print_skip('skip text')
 simple.print_skip('fastcampus')
+
