@@ -1,0 +1,8 @@
+refer to this link : https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/
+
+complete mariadb installation and create admin@localhost
+but forced turn off raspberry pi
+
+--------how to remote control method---------
+in raspberryPI : join terminal and `sudo ssh service restart`
+in remote computer : join terminal and `ssh pi@'IP_Adress'
