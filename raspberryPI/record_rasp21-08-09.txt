@@ -1,0 +1,9 @@
+complete fix mbstring error
+
+etc/php/7.3(latest version)/php.ini
+
+go to 918 line
+
+;extension=mbstring
+
+delete semi colon and type `sudo service apache2 restart`
